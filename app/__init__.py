@@ -13,7 +13,7 @@ class App:
         self.configure_logging()
         load_dotenv()
         self.settings = self.load_environment_variables()
-        self.settings.setdefault('ENVIRONMENT', 'PRODUCTION')
+        self.settings.setdefault('ENVIRONMENT', 'TESTING')
         self.command_handler = CommandHandler()
 
     def configure_logging(self):
