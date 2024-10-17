@@ -11,8 +11,6 @@ def test_app_get_environment_variable():
     # Assert that the current environment is what you expect
     assert current_env in ['DEVELOPMENT', 'TESTING', 'PRODUCTION'], f"Invalid ENVIRONMENT: {current_env}"
 
-
-
 def test_app_start_exit_command(capfd, monkeypatch):
     """Test that the REPL exits correctly on 'exit' command."""
     # Simulate user entering 'exit'
