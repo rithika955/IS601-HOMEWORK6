@@ -7,7 +7,7 @@ create dynamic tests for validating the behavior of arithmetic operations.
 '''
 from decimal import Decimal
 from faker import Faker
-from calculator.operations import add, subtract, multiply, divide
+from app.operations import add, subtract, multiply, divide
 
 fake = Faker()
 
