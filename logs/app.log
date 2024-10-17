@@ -1,0 +1,18 @@
+2024-10-17 13:45:09,773 - root - INFO - Logging configured.
+2024-10-17 13:45:09,778 - root - INFO - Environment variables loaded.
+2024-10-17 13:45:09,810 - root - INFO - Command 'greet' from plugin 'greet' registered.
+2024-10-17 13:45:09,810 - root - INFO - Application started. Type 'exit' to exit.
+2024-10-17 13:50:27,210 - root - INFO - Logging configured.
+2024-10-17 13:50:27,212 - root - INFO - Environment variables loaded.
+2024-10-17 13:50:27,213 - root - CRITICAL - Broken!!!
+2024-10-17 13:50:27,228 - root - INFO - Command 'greet' from plugin 'greet' registered.
+2024-10-17 13:50:27,229 - root - INFO - Application started. Type 'exit' to exit.
+2024-10-17 13:51:10,974 - root - INFO - Logging configured.
+2024-10-17 13:51:10,975 - root - INFO - Environment variables loaded.
+2024-10-17 13:51:10,990 - root - INFO - Command 'greet' from plugin 'greet' registered.
+2024-10-17 13:51:10,991 - root - INFO - Application started. Type 'exit' to exit.
+2024-10-17 13:59:11,370 - root - INFO - Logging configured.
+2024-10-17 13:59:11,376 - root - INFO - Environment variables loaded.
+2024-10-17 13:59:11,407 - root - INFO - Command 'greet' from plugin 'greet' registered.
+2024-10-17 13:59:11,407 - root - INFO - Application started. Type 'exit' to exit.
+2024-10-17 13:59:14,370 - root - INFO - Hello, World!
