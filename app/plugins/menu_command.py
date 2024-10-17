@@ -1,4 +1,4 @@
-from calculator.commands import Command
+from app.commands import Command
 
 class MenuCommand(Command):
     def execute(self, commands_dict):
