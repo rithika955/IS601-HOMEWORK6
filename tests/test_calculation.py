@@ -9,8 +9,8 @@ accurate.
 
 from decimal import Decimal
 import pytest
-from calculator.calculation import Calculation
-from calculator.operations import add, subtract, multiply, divide
+from app.calculation import Calculation
+from app.operations import add, subtract, multiply, divide
 
 @pytest.mark.parametrize("n1, n2, operation, expected", [
     (Decimal('8'), Decimal('4'), add, Decimal('12')),
