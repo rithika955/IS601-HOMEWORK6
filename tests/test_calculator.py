@@ -1,6 +1,6 @@
 ''' My Calculator Test with Calculator object'''
 import pytest
-from calculator import Calculator
+from app import Calculator
 
 def test_add():
     '''Tests the addition operation with two decimals passed to the Calculator object'''
