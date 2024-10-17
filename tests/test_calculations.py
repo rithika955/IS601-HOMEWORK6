@@ -9,9 +9,9 @@ filtered correctly using pytest.
 from decimal import Decimal
 import pytest
 
-from calculator.calculation import Calculation
-from calculator.calculations import calculations
-from calculator.operations import add, subtract, multiply, divide
+from app.calculation import Calculation
+from app.calculations import calculations
+from app.operations import add, subtract, multiply, divide
 
 @pytest.fixture
 def sample_operations():
