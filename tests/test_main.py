@@ -1,7 +1,7 @@
 from decimal import Decimal
 import pytest
 from main import perform_calculation_and_display, run_repl
-from calculator.commands import AddCommand, SubtractCommand, MultiplyCommand, DivideCommand
+from app.commands import AddCommand, SubtractCommand, MultiplyCommand, DivideCommand
 
 def test_perform_calculation_and_display(capsys):
     commands = {
