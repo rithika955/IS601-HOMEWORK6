@@ -1,7 +1,7 @@
 from multiprocessing import Process, Queue
 import pytest
 from decimal import Decimal
-from calculator.commands import Command, AddCommand, SubtractCommand, MultiplyCommand, DivideCommand
+from app.commands import Command, AddCommand, SubtractCommand, MultiplyCommand, DivideCommand
 
 def test_add_command():
     command = AddCommand()
