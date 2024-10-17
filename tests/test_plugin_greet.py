@@ -1,3 +1,4 @@
+"""Module"""
 import pytest
 from app import App
 
@@ -9,12 +10,10 @@ def test_app_greet_command(capfd, monkeypatch):
     app = App()
     with pytest.raises(SystemExit) as e:
         app.start()
-    
     # Check that the exit was graceful with the correct exit code
     assert e.value.code == 0, "The app did not exit as expected"
-
     # Capture the output from the 'greet' command
-    out, err = capfd.readouterr()
-    
+    out,err = capfd.readouterr()
     # Assert that 'Hello, World!' was printed to stdout
     assert "Hello, World!" in out, "The 'greet' command did not produce the expected output."
+    print(err)
